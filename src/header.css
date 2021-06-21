@@ -1,0 +1,54 @@
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:  #f2f2f2;
+  }
+  
+  .conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 64px;
+    height: 100%;  
+  }
+  
+  .logo{
+    margin-top: 30px;
+    position:relative;
+    width: 183px;
+    height: 32px;
+  }
+  
+  .title{
+    position: relative;
+    font-size:102px;
+    font-weight: bold;
+    width: 730px;
+    height: 192px;
+  }
+  
+  .subtitle{
+    position: relative;
+    font-size:18px;
+    font-weight:normal;
+    width: 388px;
+    height: 75px;
+    margin-bottom: 30px;
+  }
+  
+  .two{
+    position: absolute;
+    width: 765px;
+    height: 608px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .blue-rect{
+    margin-top: 64px;
+    width: 568px;
+    height: 568px;
+    position: absolute;
+    right: 0;
+  }
